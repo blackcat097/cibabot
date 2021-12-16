@@ -77,15 +77,15 @@ LUNA_IMG = "https://telegra.ph/file/b05fb827470a67aeec05f.jpg"
 PM_START_TEXT = """
 ✪ ʜᴀʟᴏ ɴᴀᴍᴀ sᴀʏᴀ sᴇɪʀᴀ ʀᴏʙᴏᴛ  [🇮🇩](https://telegra.ph/file/81e28997dcd6153979fa7.jpg)
 ================================
-✪ sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴛᴇᴍᴀ ᴀɴɪᴍᴇ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ᴍᴜᴅᴀʜ!
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [sᴇᴛʜ](https://t.me/xyzsethh)
+✪ ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ʏᴀɴɢ ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ᴍᴜᴅᴀʜ!
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [ᴀʟʙʏ](https://t.me/panggilajaalby)
 ================================
 ✪ ᴛᴇᴋᴀɴ /help ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ​.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="➕ ᴛᴀᴍʙᴀʜ sᴇɪʀᴀ ᴋᴇ ɢʀᴜᴘ ᴀɴᴅᴀ​ ➕", url="http://t.me/SeiraXRobot?startgroup=true"),
+        InlineKeyboardButton(text="➕ ᴛᴀᴍʙᴀʜ sᴇɪʀᴀ ᴋᴇ ɢʀᴜᴘ ᴀɴᴅᴀ​ ➕", url="http://t.me/alby_robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴛᴇɴᴛᴀɴɢ sᴇɪʀᴀ​ 💜", callback_data="luna_"),
@@ -107,11 +107,11 @@ HELP_STRINGS = """
 ❂ /help: ᴍᴇɴɢɪʀɪᴍ ᴘᴇsᴀɴ ɪɴɪ; sᴀʏᴀ ᴀᴋᴀɴ ʙᴇʀᴄᴇʀɪᴛᴀ ʟᴇʙɪʜ ʙᴀɴʏᴀᴋ ᴛᴇɴᴛᴀɴɢ ᴅɪʀɪ sᴀʏᴀ​.
 
 Semua perintah dapat digunakan dengan / atau !.
-Jika Anda ingin melaporkan bug atau membutuhkan bantuan dalam menyiapkan Seira, hubungi kami di sini @SeiraSupport"""
+Jika Anda ingin melaporkan bug atau membutuhkan bantuan dalam menyiapkan Alby, hubungi kami di sini @AlbySupportGroup"""
 
 
 DONATE_STRING = """Hehe, senang mendengar Anda ingin menyumbang!
- [klick disini](https://t.me/xyzsethh) ❤️
+ [klick disini](https://t.me/panggilajaalby) ❤️
 """
 
 IMPORTED = {}
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/seirasupport")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/AlbySupportGroup")]]
             ),
         )
         
@@ -398,9 +398,9 @@ def luna_about_callback(update, context):
             f"\n\n1.) Pertama, tambahkan saya ke grup anda.\n"
             f"2.) kemudian promosikan saya sebagai admin dan berikan semua izin kecuali admin anonim.\n"
             f"3.) setelah mempromosikan saya, ketik /reload di grup untuk memperbarui daftar admin.\n"
-            f"4.) Tambahkan @seiramusicassisten ke grup anda.\n"
+            f"4.) Tambahkan @alby_music_assistant ke grup anda.\n"
             f"5.) nyalakan obrolan video terlebih dahulu sebelum mulai memutar musik.\n"
-            f"\n📌 jika userbot(@seiramusikassisten) tidak join voice chat, pastikan voice chat aktif,.",
+            f"\n📌 jika userbot(@alby_music_assistant) tidak join voice chat, pastikan voice chat aktif,.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -466,19 +466,16 @@ def luna_about_callback(update, context):
         )
     elif query.data == "luna_credit":
         query.message.edit_text(
-            text=f"<b> `Cʀᴇᴅɪᴛ Fᴏʀ Seira Dᴇᴠ's` </b>\n"
-            f"\nHᴇʀᴇ Sᴏᴍᴇ Dᴇᴠᴇʟᴏᴘᴇʀs Hᴇʟᴘɪɴɢ Iɴ Mᴀᴋɪɴɢ Tʜᴇ Seira",
+            text=f"<b> `Cʀᴇᴅɪᴛ Fᴏʀ Alby Dᴇᴠ's` </b>\n"
+            f"\nHᴇʀᴇ Sᴏᴍᴇ Dᴇᴠᴇʟᴏᴘᴇʀs Hᴇʟᴘɪɴɢ Iɴ Mᴀᴋɪɴɢ Tʜᴇ Alby",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Alina", url="https://t.me/rizexx"),
-                    InlineKeyboardButton(text="Nao", url="https://t.me/xgothboi"),
+                    InlineKeyboardButton(text="Alby", url="https://t.me/panggilajaalby"),
                  ],
                  [
-                    InlineKeyboardButton(text="Yui", url="https://t.me/Badboyanim"),
-                    InlineKeyboardButton(text="Luna", url="https://t.me/tdrki_1"),
-                    InlineKeyboardButton(text="Seira", url="https//t.me/xyzparvez"),
+                    InlineKeyboardButton(text="Alby", url="https://t.me/panggilajaalby"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="luna_basichelp"),
@@ -494,7 +491,7 @@ def luna_about_callback(update, context):
                  f"\nAnda dapat menambahkan saya ke grup Anda dengan mengeklik tautan ini dan memilih obrolan.\n"
                  f"\nBaca Izin Admin dan Anti-spam untuk info dasar.\n"
                  f"\nBaca Panduan Penyiapan Terperinci untuk mempelajari tentang penyiapan bot secara mendetail. (Disarankan)\n"
-                 f"\nJika Anda membutuhkan bantuan dengan petunjuk lebih lanjut, silakan bertanya di @seirasupport.",
+                 f"\nJika Anda membutuhkan bantuan dengan petunjuk lebih lanjut, silakan bertanya di @albysupportgroup.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -514,11 +511,11 @@ def luna_about_callback(update, context):
     elif query.data == "luna_asu":
         query.message.edit_text(
             text=f"｢ Perizinan Admin 」\n"
-                     f"\nUntuk menghindari perlambatan, Seira menyimpan hak admin untuk setiap pengguna. Cache ini berlangsung sekitar 10 menit; ini dapat berubah di masa mendatang. Ini berarti bahwa jika Anda mempromosikan pengguna secara manual (tanpa menggunakan perintah /promote), Seira akan  cari tahu saja ~10 menit kemudian.\n"
-                     f"\nJika Anda ingin segera memperbaruinya, Anda dapat menggunakan perintah /admincache atau /reload, yang akan memaksa Seira untuk memeriksa lagi siapa adminnya dan izinnya\n"
+                     f"\nUntuk menghindari perlambatan, Alby menyimpan hak admin untuk setiap pengguna. Cache ini berlangsung sekitar 10 menit; ini dapat berubah di masa mendatang. Ini berarti bahwa jika Anda mempromosikan pengguna secara manual (tanpa menggunakan perintah /promote), Alby akan  cari tahu saja ~10 menit kemudian.\n"
+                     f"\nJika Anda ingin segera memperbaruinya, Anda dapat menggunakan perintah /admincache atau /reload, yang akan memaksa Alby untuk memeriksa lagi siapa adminnya dan izinnya\n"
                      f"\nJika Anda mendapatkan pesan yang mengatakan:\nAnda harus menjadi administrator obrolan ini untuk melakukan tindakan ini!\n"
-                     f"\nIni tidak ada hubungannya dengan hak Seira; ini semua tentang izin ANDA sebagai admin. Seira menghormati izin admin; jika Anda tidak memiliki izin Larangan Pengguna sebagai admin telegram, Anda tidak akan dapat mencekal pengguna  dengan Seira. Demikian pula, untuk mengubah setelan seira, Anda harus memiliki izin Ubah info grup.\n"
-                     f"\nPesan tersebut dengan sangat jelas menyatakan bahwa Anda memerlukan hak-hak ini - bukan Seira.",
+                     f"\nIni tidak ada hubungannya dengan hak Alby; ini semua tentang izin ANDA sebagai admin. Alby menghormati izin admin; jika Anda tidak memiliki izin Larangan Pengguna sebagai admin telegram, Anda tidak akan dapat mencekal pengguna  dengan Alby. Demikian pula, untuk mengubah setelan Alby, Anda harus memiliki izin Ubah info grup.\n"
+                     f"\nPesan tersebut dengan sangat jelas menyatakan bahwa Anda memerlukan hak-hak ini - bukan Alby.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -530,7 +527,7 @@ def luna_about_callback(update, context):
         query.message.edit_text(
             text=f"｢ Anti-Spam Settings 」\n"
                      f"\nAntispam: "
-                      f"\nDengan mengaktifkan ini, Anda dapat melindungi grup Anda bebas dari scammer/spammer.\nJalankan /antispam di chat Anda untuk mengaktifkannya.\nSupport Chat: @seirasupport\n"
+                      f"\nDengan mengaktifkan ini, Anda dapat melindungi grup Anda bebas dari scammer/spammer.\nJalankan /antispam di chat Anda untuk mengaktifkannya.\nSupport Chat: @albysupportgroup\n"
                       f"\n✪ Anti-Spam memungkinkan Anda menjaga obrolan tetap bersih dari spam."
                       f"\n✪ Dengan bantuan Blaclists, Anda dapat memasukkan kata, kalimat, dan stiker ke daftar hitam yang tidak ingin digunakan oleh anggota grup."
                       f"\n✪ Dengan mengaktifkan Laporan, admin mendapatkan pemberitahuan saat pengguna melaporkan dalam obrolan."
@@ -551,7 +548,7 @@ def luna_about_callback(update, context):
                  f"\n✪ Jika seseorang mengirim spam ke grup Anda, Anda dapat menggunakan fitur laporan dari Klien Telegram Anda."
                  f"\n✪ Pastikan antiflood diaktifkan, sehingga pengguna tidak dapat membanjiri/spam chat Anda."
                  f"\n✪ Jangan spam perintah, tombol, atau apa pun di bot PM, jika tidak Anda akan Diabaikan oleh bot atau Gbanned."
-                 f"\n✪ Jika Anda perlu menanyakan sesuatu tentang bot ini atau membutuhkan bantuan, hubungi kami di @seirasupport"
+                 f"\n✪ Jika Anda perlu menanyakan sesuatu tentang bot ini atau membutuhkan bantuan, hubungi kami di @albysupportgroup"
                  f"\n✪ Pastikan Anda membaca aturan dan mengikutinya saat bergabung dengan Obrolan Dukungan."
                  f"\n✪ Spamming di Support Chat, akan menghadiahi Anda GBAN dan dilaporkan ke Telegram juga.\n"
                  f"\nSyarat & Ketentuan dapat diubah kapan saja.",
@@ -569,9 +566,9 @@ def luna_about_callback(update, context):
 
     elif query.data == "luna_angjay":
         query.message.edit_text(
-            text=f"Seira adalah bot yang kuat untuk mengelola grup dengan fitur tambahan.\n"
-               f"\nLisensi Seira Di Bawah GNU (Lisensi Publik Umum v3.0)\n"
-               f"\nJika Anda memiliki pertanyaan tentang Seira,"
+            text=f"Alby adalah bot yang kuat untuk mengelola grup dengan fitur tambahan.\n"
+               f"\nLisensi Alby Di Bawah GNU (Lisensi Publik Umum v3.0)\n"
+               f"\nJika Anda memiliki pertanyaan tentang Alby,"
                f"\nhubungi kami di Support Chat.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -579,7 +576,7 @@ def luna_about_callback(update, context):
                 [
                   [
                      InlineKeyboardButton(text="Back", callback_data="luna_puqi"),
-                     InlineKeyboardButton(text="Support", url=f"https://t.me/seirasupport"),
+                     InlineKeyboardButton(text="Support", url=f"https://t.me/albysupportgroup"),
                   ]
                 ]
             ),
@@ -590,7 +587,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. i'am Seira*
+            text=""" Hi.. i'am Alby*
                  \nJoin GC Mutualan [ᴍᴇᴛᴀᴠᴇʀꜱᴇ](https://t.me/joinmetakak) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -892,7 +889,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Seira Robot Alive ⚡")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Alby Robot Alive ⚡")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
