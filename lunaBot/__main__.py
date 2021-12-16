@@ -85,10 +85,10 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="➕ ᴛᴀᴍʙᴀʜ sᴇɪʀᴀ ᴋᴇ ɢʀᴜᴘ ᴀɴᴅᴀ​ ➕", url="http://t.me/alby_robot?startgroup=true"),
+        InlineKeyboardButton(text="➕ ᴛᴀᴍʙᴀʜ ᴀʟʙʏ ᴋᴇ ɢʀᴜᴘ ᴀɴᴅᴀ​ ➕", url="http://t.me/alby_robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴛᴇɴᴛᴀɴɢ sᴇɪʀᴀ​ 💜", callback_data="luna_"),
+        InlineKeyboardButton(text="ᴛᴇɴᴛᴀɴɢ ᴀʟʙʏ ♥️", callback_data="luna_"),
         InlineKeyboardButton(
             text="ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ​", callback_data="luna_basichelp"
         ),
