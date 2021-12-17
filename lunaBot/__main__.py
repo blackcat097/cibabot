@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-LUNA_IMG = "https://i.postimg.cc/Gh8n0z67/imagesbb-1.jpg"
+LUNA_IMG = "https://telegra.ph/file/929d337895c056cc465d0.jpg"
 
 PM_START_TEXT = """
-✪ ʜᴀʟᴏ ɴᴀᴍᴀ sᴀʏᴀ ᴀʟʙʏ ʀᴏʙᴏᴛ  [🇮🇩](https://i.postimg.cc/Gh8n0z67/imagesbb-1.jpg)
+✪ ʜᴀʟᴏ ɴᴀᴍᴀ sᴀʏᴀ ᴀʟʙʏ ʀᴏʙᴏᴛ  [🇮🇩](https://telegra.ph/file/929d337895c056cc465d0.jpg)
 ================================
 ✪ ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ʏᴀɴɢ ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ᴍᴜᴅᴀʜ!
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [ᴀʟʙʏ](https://t.me/panggilajaalby)
