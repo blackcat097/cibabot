@@ -78,7 +78,7 @@ PM_START_TEXT = """
 ✪ ʜᴀʟᴏ ɴᴀᴍᴀ sᴀʏᴀ ᴀʟʙʏ ʀᴏʙᴏᴛ  [🇮🇩](https://telegra.ph/file/929d337895c056cc465d0.jpg)
 ================================
 ✪ ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ʏᴀɴɢ ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ᴍᴜᴅᴀʜ!
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [ᴀʟʙʏ](https://t.me/panggilajaalby)
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [ᴀʟʙʏ](https://t.me/albyaja)
 ================================
 ✪ ᴛᴇᴋᴀɴ /help ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ​.
 """
@@ -107,11 +107,11 @@ HELP_STRINGS = """
 ❂ /help: ᴍᴇɴɢɪʀɪᴍ ᴘᴇsᴀɴ ɪɴɪ; sᴀʏᴀ ᴀᴋᴀɴ ʙᴇʀᴄᴇʀɪᴛᴀ ʟᴇʙɪʜ ʙᴀɴʏᴀᴋ ᴛᴇɴᴛᴀɴɢ ᴅɪʀɪ sᴀʏᴀ​.
 
 Semua perintah dapat digunakan dengan / atau !.
-Jika Anda ingin melaporkan bug atau membutuhkan bantuan dalam menyiapkan Alby, hubungi kami di sini @AlbySupportGroup"""
+Jika Anda ingin melaporkan bug atau membutuhkan bantuan dalam menyiapkan Alby, hubungi kami di sini @ruangdiskusikami"""
 
 
 DONATE_STRING = """Hehe, senang mendengar Anda ingin menyumbang!
- [klick disini](https://t.me/panggilajaalby) ❤️
+ [klick disini](https://t.me/albyaja) ❤️
 """
 
 IMPORTED = {}
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/AlbySupportGroup")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/ruangdiskusikami")]]
             ),
         )
         
@@ -398,9 +398,9 @@ def luna_about_callback(update, context):
             f"\n\n1.) Pertama, tambahkan saya ke grup anda.\n"
             f"2.) kemudian promosikan saya sebagai admin dan berikan semua izin kecuali admin anonim.\n"
             f"3.) setelah mempromosikan saya, ketik /reload di grup untuk memperbarui daftar admin.\n"
-            f"4.) Tambahkan @alby_music_assistant ke grup anda.\n"
+            f"4.) Tambahkan @alby_assistant ke grup anda.\n"
             f"5.) nyalakan obrolan video terlebih dahulu sebelum mulai memutar musik.\n"
-            f"\n📌 jika userbot(@alby_music_assistant) tidak join voice chat, pastikan voice chat aktif,.",
+            f"\n📌 jika userbot(@alby_assistant) tidak join voice chat, pastikan voice chat aktif,.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -472,7 +472,7 @@ def luna_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Alby", url="https://t.me/panggilajaalby"),
+                    InlineKeyboardButton(text="Alby", url="https://t.me/albyaja"),
                  ],
                  [
                     InlineKeyboardButton(text="Alby", url="https://t.me/panggilajaalby"),
@@ -491,7 +491,7 @@ def luna_about_callback(update, context):
                  f"\nAnda dapat menambahkan saya ke grup Anda dengan mengeklik tautan ini dan memilih obrolan.\n"
                  f"\nBaca Izin Admin dan Anti-spam untuk info dasar.\n"
                  f"\nBaca Panduan Penyiapan Terperinci untuk mempelajari tentang penyiapan bot secara mendetail. (Disarankan)\n"
-                 f"\nJika Anda membutuhkan bantuan dengan petunjuk lebih lanjut, silakan bertanya di @albysupportgroup.",
+                 f"\nJika Anda membutuhkan bantuan dengan petunjuk lebih lanjut, silakan bertanya di @ruangdiskusikami.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -527,7 +527,7 @@ def luna_about_callback(update, context):
         query.message.edit_text(
             text=f"｢ Anti-Spam Settings 」\n"
                      f"\nAntispam: "
-                      f"\nDengan mengaktifkan ini, Anda dapat melindungi grup Anda bebas dari scammer/spammer.\nJalankan /antispam di chat Anda untuk mengaktifkannya.\nSupport Chat: @albysupportgroup\n"
+                      f"\nDengan mengaktifkan ini, Anda dapat melindungi grup Anda bebas dari scammer/spammer.\nJalankan /antispam di chat Anda untuk mengaktifkannya.\nSupport Chat: @ruangdiskusikami\n"
                       f"\n✪ Anti-Spam memungkinkan Anda menjaga obrolan tetap bersih dari spam."
                       f"\n✪ Dengan bantuan Blaclists, Anda dapat memasukkan kata, kalimat, dan stiker ke daftar hitam yang tidak ingin digunakan oleh anggota grup."
                       f"\n✪ Dengan mengaktifkan Laporan, admin mendapatkan pemberitahuan saat pengguna melaporkan dalam obrolan."
@@ -548,7 +548,7 @@ def luna_about_callback(update, context):
                  f"\n✪ Jika seseorang mengirim spam ke grup Anda, Anda dapat menggunakan fitur laporan dari Klien Telegram Anda."
                  f"\n✪ Pastikan antiflood diaktifkan, sehingga pengguna tidak dapat membanjiri/spam chat Anda."
                  f"\n✪ Jangan spam perintah, tombol, atau apa pun di bot PM, jika tidak Anda akan Diabaikan oleh bot atau Gbanned."
-                 f"\n✪ Jika Anda perlu menanyakan sesuatu tentang bot ini atau membutuhkan bantuan, hubungi kami di @albysupportgroup"
+                 f"\n✪ Jika Anda perlu menanyakan sesuatu tentang bot ini atau membutuhkan bantuan, hubungi kami di @ruangdiskusikami"
                  f"\n✪ Pastikan Anda membaca aturan dan mengikutinya saat bergabung dengan Obrolan Dukungan."
                  f"\n✪ Spamming di Support Chat, akan menghadiahi Anda GBAN dan dilaporkan ke Telegram juga.\n"
                  f"\nSyarat & Ketentuan dapat diubah kapan saja.",
@@ -576,7 +576,7 @@ def luna_about_callback(update, context):
                 [
                   [
                      InlineKeyboardButton(text="Back", callback_data="luna_puqi"),
-                     InlineKeyboardButton(text="Support", url=f"https://t.me/albysupportgroup"),
+                     InlineKeyboardButton(text="Support", url=f"https://t.me/ruangdiskusikami"),
                   ]
                 ]
             ),
