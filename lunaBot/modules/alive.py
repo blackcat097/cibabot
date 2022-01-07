@@ -7,14 +7,14 @@ from pyrogram import __version__ as pyrover
 from lunaBot.events import register as MEMEK
 from lunaBot import telethn as tbot
 
-PHOTO = "https://telegra.ph/file/929d337895c056cc465d0.jpg"
+PHOTO = "https://telegra.ph/file/d1e8cc958d662150b36ad.jpg"
 
 @MEMEK(pattern=("/alive"))
 async def awake(event):
   tai = event.sender.first_name
   LUNA = "**Holla I'm Alby!** \n\n"
   LUNA += "💎 **I'm Working Properly** \n\n"
-  LUNA += "💎 **My Master : [ᴀʟʙʏ](https://t.me/panggilajaalby)** \n\n"
+  LUNA += "💎 **My Master : [ᴀʟʙʏ](https://t.me/albyaja)** \n\n"
   LUNA += f"💎 **Telethon Version : {tlhver}** \n\n"
   LUNA += f"💎 **Pyrogram Version : {pyrover}** \n\n"
   LUNA += "**Terima kasih sudah menambahkan Alby 💚**"
