@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-LUNA_IMG = "https://telegra.ph/file/929d337895c056cc465d0.jpg"
+LUNA_IMG = "https://telegra.ph/file/d1e8cc958d662150b36ad.jpg"
 
 PM_START_TEXT = """
-✪ ʜᴀʟᴏ ɴᴀᴍᴀ sᴀʏᴀ ᴀʟʙʏ ʀᴏʙᴏᴛ  [🇮🇩](https://telegra.ph/file/929d337895c056cc465d0.jpg)
+✪ ʜᴀʟᴏ ɴᴀᴍᴀ sᴀʏᴀ ᴀʟʙʏ ʀᴏʙᴏᴛ  [🇮🇩](https://telegra.ph/file/d1e8cc958d662150b36ad.jpg)
 ================================
 ✪ ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ʏᴀɴɢ ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ᴍᴜᴅᴀʜ!
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [ᴀʟʙʏ](https://t.me/albyaja)
@@ -102,7 +102,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-**Main commands:**  [ㅤ](https://i.postimg.cc/wMFGRjKC/images-bby1.jpg)
+**Main commands:**  [ㅤ](https://telegra.ph/file/d1e8cc958d662150b36ad.jpg)
 ❂ /start:ᴀɴᴅᴀ ᴍᴜɴɢᴋɪɴ sᴜᴅᴀʜ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ.
 ❂ /help: ᴍᴇɴɢɪʀɪᴍ ᴘᴇsᴀɴ ɪɴɪ; sᴀʏᴀ ᴀᴋᴀɴ ʙᴇʀᴄᴇʀɪᴛᴀ ʟᴇʙɪʜ ʙᴀɴʏᴀᴋ ᴛᴇɴᴛᴀɴɢ ᴅɪʀɪ sᴀʏᴀ​.
 
