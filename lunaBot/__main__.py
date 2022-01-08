@@ -422,10 +422,15 @@ def luna_about_callback(update, context):
     elif query.data == "luna_admin":
         query.message.edit_text(
             text=f"**──「 Penggunaan Dasar 」──**"
-            f"\n/play (nama lagu) - memutar musik dari youtube"
-            f"\n/play (balas ke pesan audio) - memutar musik dari file audio."
-            f"\n/playlist - mainkan musik playlistmu atau playlist grup."
-            f"\n/song (nama lagu ) - mendownload lagu dari youtube.",
+            f"\n/play (judul lagu) - untuk memutar lagu yang anda inginkan."
+            f"\n/play (balas ke audio file) - untuk memutar lagu yang di minta melalui audio yang dibalas."
+            f"\n/play (link youtube) - untuk memutar lagu yang di minta melalui url youtube."
+            f"\n/song (judul lagu) - untuk mendownload lagu."
+            f"\n/vplay (judul video) - untuk memutar video yang anda inginkan."
+            f"\n/vplay (balas ke audio file) - untuk memutar video yang di minta melalui video yang dibalas."
+            f"\n/vplay (link youtube) - untuk memutar video yang di minta melalui url youtube."
+            f"\n/vsong (judul video) - untuk mendownload video."
+            f"\n/playlist - mainkan musik & video playlistmu atau playlist grup.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -449,11 +454,12 @@ def luna_about_callback(update, context):
     elif query.data == "luna_support":
         query.message.edit_text(
             text=f"──「 Penggunaan Admin 」──\n"
-            f"\n/play - (nama lagu) / balas ke audio file "
-            f"\n/pause - pause musik yang sedang berputar"
-            f"\n/resume - melanjutkan musik yang Ter pause"
-            f"\n/skip - melewati ke lagu selanjutnya"
-            f"\n/end - stop musik yang sedang berputar",
+            f"\n/play - (judul lagu) / balas ke audio file "
+            f"\n/vplay - (judul video) / balas ke video file "
+            f"\n/pause - untuk menjeda pemutaran"
+            f"\n/resume - untuk melanjutkan pemutaran"
+            f"\n/skip - untuk memutar lagu berikutnya yang ada didalam antrian"
+            f"\n/end - untuk menghentikan pemutaran",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
