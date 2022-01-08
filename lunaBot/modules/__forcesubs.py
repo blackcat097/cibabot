@@ -181,19 +181,19 @@ def config(client, message):
 
 __help__ = """
 *Force Subscribe:*
-❍ Luna can mute members who are not subscribed your channel until they subscribe
-❍ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
+❍ Alby dapat membisukan anggota yang tidak berlangganan saluran Anda sampai mereka berlangganan
+❍ Saat diaktifkan, saya akan membisukan anggota yang tidak berlangganan dan menunjukkan kepada mereka tombol suarakan.  Ketika mereka menekan tombol, saya akan membunyikan mereka
 *Setup*
 *Only creator*
-❍ Add me in your group as admin
-❍ Add me in your channel as admin 
+❍ Tambahkan saya di grup Anda sebagai admin
+❍ Tambahkan saya di saluran(channel) Anda sebagai admin 
  
 *Commmands*
- ❍ /fsub {channel username} - To turn on and setup the channel.
-  💡Do this first...
- ❍ /fsub - To get the current settings.
- ❍ /fsub disable - To turn of ForceSubscribe..
-  💡If you disable fsub, you need to set again for working.. /fsub {channel username} 
- ❍ /fsub clear - To unmute all members who muted by me.
+ ❍ /fsub {channel username} - Untuk mengaktifkan dan mengatur saluran.
+  💡Lakukan ini dulu...
+ ❍ /fsub - Untuk mendapatkan pengaturan saat ini.
+ ❍ /fsub disable - Untuk mematikan ForceSubscribe..
+  💡Jika Anda menonaktifkan(disable) fsub, Anda perlu mengaturnya kembali agar berfungsi.. /fsub {channel username} 
+ ❍ /fsub clear - Untuk mengaktifkan suara semua anggota yang dibisukan oleh saya.
 """
 __mod_name__ = "F-Subs"
