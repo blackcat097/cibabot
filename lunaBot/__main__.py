@@ -72,46 +72,45 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-LUNA_IMG = "https://telegra.ph/file/d1e8cc958d662150b36ad.jpg"
+LUNA_IMG = "https://telegra.ph/file/fe60111b5bcbeffbb2b30.jpg"
 
 PM_START_TEXT = """
-✪ ʜᴀʟᴏ ɴᴀᴍᴀ sᴀʏᴀ ᴀʟʙʏ ʀᴏʙᴏᴛ  [🇮🇩](https://telegra.ph/file/d1e8cc958d662150b36ad.jpg)
+✪ ʜᴇʟʟᴏ ɪ'ᴍ ᴀᴍᴀʟᴀ [😁](https://telegra.ph/file/fe60111b5bcbeffbb2b30.jpg)
 ================================
-✪ ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ʏᴀɴɢ ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ᴍᴜᴅᴀʜ!
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [ᴀʟʙʏ](https://t.me/albyaja)
+✪ ɪ'ᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴɢᴍᴇɴᴛ ᴀɴᴅ ᴠɪᴅᴇᴏ + ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀs[ ʙʟᴀᴄᴋ ᴄᴀᴛ ](https://t.me/The_cat_lover0)
 ================================
-✪ ᴛᴇᴋᴀɴ /help ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ​.
+✪ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴍᴜsɪᴄ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴍᴏʀᴇ ᴜsᴇғᴜʟ ᴄᴏᴍᴍᴀɴᴅs ᴀʀᴇ ɪɴ /help​.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="➕ ᴛᴀᴍʙᴀʜ ᴀʟʙʏ ᴋᴇ ɢʀᴜᴘ ᴀɴᴅᴀ​ ➕", url="http://t.me/alby_robot?startgroup=true"),
+        InlineKeyboardButton(text="➕ ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴋᴏ ʙᴀʙʏ 😍​ ➕", url="http://t.me/Amalarobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴛᴇɴᴛᴀɴɢ ᴀʟʙʏ 💚", callback_data="luna_"),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ ᴄᴏᴍᴍᴀɴᴅs💚", url=f"https://telegra.ph/%F0%9D%99%B0%F0%9D%9A%96%F0%9D%9A%8A%F0%9D%9A%95%F0%9D%9A%8A-01-08"),
         InlineKeyboardButton(
-            text="ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ​", callback_data="luna_basichelp"
+            text="ɴᴇᴛᴡᴏʀᴋ​", url=f"https://t.me/catmusicworld"
         ),
     ],
     [
         
         InlineKeyboardButton(
-            text="ʙᴀɴᴛᴜᴀɴ & ᴘᴇʀɪɴᴛᴀʜ​", callback_data="help_back"),
+            text="ᴀᴍᴀʟᴀ ᴄᴏᴍᴍᴀɴᴅs​", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-**Main commands:**  [ㅤ](https://telegra.ph/file/d1e8cc958d662150b36ad.jpg)
-❂ /start:ᴀɴᴅᴀ ᴍᴜɴɢᴋɪɴ sᴜᴅᴀʜ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ.
-❂ /help: ᴍᴇɴɢɪʀɪᴍ ᴘᴇsᴀɴ ɪɴɪ; sᴀʏᴀ ᴀᴋᴀɴ ʙᴇʀᴄᴇʀɪᴛᴀ ʟᴇʙɪʜ ʙᴀɴʏᴀᴋ ᴛᴇɴᴛᴀɴɢ ᴅɪʀɪ sᴀʏᴀ​.
+**Main commands:**  [ㅤ](https://telegra.ph/file/fe60111b5bcbeffbb2b30.jpg)
+❂ /star: ɴᴀ ɢʀᴜᴄʜɪ. 
+❂ /help: ɴɪᴋ ᴇᴍ ᴋᴀᴠᴀʟɪ ᴏᴏʜ ᴀɴᴛʜᴀ ᴜᴅʜɪ ʜᴇʟᴘ ʟᴏᴏ​.
 
-Semua perintah dapat digunakan dengan / atau !.
-Jika Anda ingin melaporkan bug atau membutuhkan bantuan dalam menyiapkan Alby, hubungi kami di sini @ruangdiskusikami"""
+ᴇᴍ ɪɴᴀ ᴘʀʙʟᴍ ᴜɴᴛᴇʏ ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ.
+@catmusicworld"""
 
 
-DONATE_STRING = """Hehe, senang mendengar Anda ingin menyumbang!
- [klick disini](https://t.me/albyaja) ❤️
+DONATE_STRING = """Hehe, my lovely owner baby 😍!
+ [KANNA](https://t.me/The_cat_lover0) ❤️
 """
 
 IMPORTED = {}
@@ -227,7 +226,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/ruangdiskusikami")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/catmusicworld")]]
             ),
         )
         
