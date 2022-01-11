@@ -471,16 +471,16 @@ def luna_about_callback(update, context):
         )
     elif query.data == "luna_credit":
         query.message.edit_text(
-            text=f"<b> `Cʀᴇᴅɪᴛ Fᴏʀ Alby Dᴇᴠ's` </b>\n"
-            f"\nHᴇʀᴇ Sᴏᴍᴇ Dᴇᴠᴇʟᴏᴘᴇʀs Hᴇʟᴘɪɴɢ Iɴ Mᴀᴋɪɴɢ Tʜᴇ Alby",
+            text=f"<b> `Cʀᴇᴅɪᴛ Fᴏʀ Amala Dᴇᴠ's` </b>\n"
+            f"\nHᴇʀᴇ Sᴏᴍᴇ Dᴇᴠᴇʟᴏᴘᴇʀs Hᴇʟᴘɪɴɢ Iɴ Mᴀᴋɪɴɢ Tʜᴇ Amala",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Alby", url="https://t.me/albyaja"),
+                    InlineKeyboardButton(text="meow", url="https://t.me/The_cat_lover0"),
                  ],
                  [
-                    InlineKeyboardButton(text="Alby", url="https://t.me/panggilajaalby"),
+                    InlineKeyboardButton(text="meow", url="https://t.me/catmusicworld),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="luna_basichelp"),
@@ -581,7 +581,7 @@ def luna_about_callback(update, context):
                 [
                   [
                      InlineKeyboardButton(text="Back", callback_data="luna_puqi"),
-                     InlineKeyboardButton(text="Support", url=f"https://t.me/ruangdiskusikami"),
+                     InlineKeyboardButton(text="Support", url=f"https://t.me/catmusicworld"),
                   ]
                 ]
             ),
@@ -592,8 +592,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. i'am Alby*
-                 \nJoin GC Mutualan [ᴍᴇᴛᴀᴠᴇʀꜱᴇ](https://t.me/joinmetakak) .""",
+            text=""" Hi.. i'am Amala*
+                 \nJoin GC Mutualan [ʙʟᴀᴄᴋ ᴄᴀʀ](https://t.me/The_cat_lover0) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -894,7 +894,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Alby Robot Alive ⚡")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Amala Alive ⚡")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
